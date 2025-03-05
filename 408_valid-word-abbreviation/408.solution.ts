@@ -41,4 +41,5 @@ validWordAbbreviation("internationalization", "i12iz4n");
 //2. Check if abbr[j] is letter or number
 //letter: if abbr[j] and word [i] do not match return false
 //number: build a full number and make i skip that number
+//!!!don't forget about leading zeros!!!
 //3. Return i === word.length && j === abbr.length (if false invalid)
